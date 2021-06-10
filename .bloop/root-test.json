@@ -1,0 +1,155 @@
+{
+    "version": "1.4.0",
+    "project": {
+        "name": "root-test",
+        "directory": "/Users/yuriy/Projects/Scala/_mentoring/scc-zio-doobie",
+        "workspaceDir": "/Users/yuriy/Projects/Scala/_mentoring/scc-zio-doobie",
+        "sources": [
+            "/Users/yuriy/Projects/Scala/_mentoring/scc-zio-doobie/src/test/scala",
+            "/Users/yuriy/Projects/Scala/_mentoring/scc-zio-doobie/src/test/scala-2.12",
+            "/Users/yuriy/Projects/Scala/_mentoring/scc-zio-doobie/src/test/scala-2",
+            "/Users/yuriy/Projects/Scala/_mentoring/scc-zio-doobie/src/test/java",
+            "/Users/yuriy/Projects/Scala/_mentoring/scc-zio-doobie/target/scala-2.12/src_managed/test"
+        ],
+        "dependencies": [
+            "root"
+        ],
+        "classpath": [
+            "/Users/yuriy/Projects/Scala/_mentoring/scc-zio-doobie/.bloop/root/scala-2.12/classes",
+            "/Users/yuriy/.sbt/boot/scala-2.12.14/lib/scala-library.jar"
+        ],
+        "out": "/Users/yuriy/Projects/Scala/_mentoring/scc-zio-doobie/.bloop/root",
+        "classesDir": "/Users/yuriy/Projects/Scala/_mentoring/scc-zio-doobie/.bloop/root/scala-2.12/test-classes",
+        "resources": [
+            "/Users/yuriy/Projects/Scala/_mentoring/scc-zio-doobie/src/test/resources",
+            "/Users/yuriy/Projects/Scala/_mentoring/scc-zio-doobie/target/scala-2.12/resource_managed/test"
+        ],
+        "scala": {
+            "organization": "org.scala-lang",
+            "name": "scala-compiler",
+            "version": "2.12.14",
+            "options": [
+                
+            ],
+            "jars": [
+                "/Users/yuriy/.sbt/boot/scala-2.12.14/lib/scala-library.jar",
+                "/Users/yuriy/.sbt/boot/scala-2.12.14/lib/scala-compiler.jar",
+                "/Users/yuriy/.sbt/boot/scala-2.12.14/lib/jline.jar",
+                "/Users/yuriy/.sbt/boot/scala-2.12.14/lib/scala-reflect.jar",
+                "/Users/yuriy/.sbt/boot/scala-2.12.14/lib/jansi.jar",
+                "/Users/yuriy/.sbt/boot/scala-2.12.14/lib/scala-xml_2.12.jar"
+            ],
+            "analysis": "/Users/yuriy/Projects/Scala/_mentoring/scc-zio-doobie/target/streams/test/bloopAnalysisOut/_global/streams/inc_compile_2.12.zip",
+            "setup": {
+                "order": "mixed",
+                "addLibraryToBootClasspath": true,
+                "addCompilerToClasspath": false,
+                "addExtraJarsToClasspath": false,
+                "manageBootClasspath": true,
+                "filterLibraryFromClasspath": true
+            }
+        },
+        "java": {
+            "options": [
+                
+            ]
+        },
+        "test": {
+            "frameworks": [
+                {
+                    "names": [
+                        "org.scalacheck.ScalaCheckFramework"
+                    ]
+                },
+                {
+                    "names": [
+                        "org.specs2.runner.Specs2Framework",
+                        "org.specs2.runner.SpecsFramework"
+                    ]
+                },
+                {
+                    "names": [
+                        "org.specs.runner.SpecsFramework"
+                    ]
+                },
+                {
+                    "names": [
+                        "org.scalatest.tools.Framework",
+                        "org.scalatest.tools.ScalaTestFramework"
+                    ]
+                },
+                {
+                    "names": [
+                        "com.novocode.junit.JUnitFramework"
+                    ]
+                },
+                {
+                    "names": [
+                        "munit.Framework"
+                    ]
+                }
+            ],
+            "options": {
+                "excludes": [
+                    
+                ],
+                "arguments": [
+                    
+                ]
+            }
+        },
+        "platform": {
+            "name": "jvm",
+            "config": {
+                "home": "/Library/Java/JavaVirtualMachines/adoptopenjdk-8.jdk/Contents/Home/jre",
+                "options": [
+                    "-Duser.dir=/Users/yuriy/Projects/Scala/_mentoring/scc-zio-doobie"
+                ]
+            },
+            "mainClass": [
+                
+            ]
+        },
+        "resolution": {
+            "modules": [
+                {
+                    "organization": "org.scala-lang",
+                    "name": "scala-library",
+                    "version": "2.12.14",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "scala-library",
+                            "path": "/Users/yuriy/.sbt/boot/scala-2.12.14/lib/scala-library.jar"
+                        },
+                        {
+                            "name": "scala-library",
+                            "classifier": "sources",
+                            "path": "/Users/yuriy/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.12.14/scala-library-2.12.14-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.scala-lang",
+                    "name": "scala-library",
+                    "version": "2.12.14",
+                    "configurations": "optional",
+                    "artifacts": [
+                        {
+                            "name": "scala-library",
+                            "path": "/Users/yuriy/.sbt/boot/scala-2.12.14/lib/scala-library.jar"
+                        },
+                        {
+                            "name": "scala-library",
+                            "classifier": "sources",
+                            "path": "/Users/yuriy/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.12.14/scala-library-2.12.14-sources.jar"
+                        }
+                    ]
+                }
+            ]
+        },
+        "tags": [
+            "test"
+        ]
+    }
+}
