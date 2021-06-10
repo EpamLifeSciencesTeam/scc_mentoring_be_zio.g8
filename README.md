@@ -4,7 +4,7 @@ A [Giter8][g8] template for EPAM Scala Competency Center ZIO+Doobie+Http4s web a
 
 First of all, you'll need [SBT](https://www.scala-sbt.org). Follow its [installation instructions](https://www.scala-sbt.org/download.html) and make sure `sbt console` opens Scala REPL.
 
-Next, you'll need to run `sbt new scc_mentoring_be_zio` and answer its questions about organization name (package name) and project name.
+Next, you'll need to run `sbt new EpamLifeSciencesTeam/scc_mentoring_be_zio.g8` and answer its questions about organization name (package name) and project name.
 
 This scaffolded project will contain:
 - [ZIO](https://zio.dev)
